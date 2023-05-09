@@ -1,2 +1,3 @@
-const fname = "Joshua";
-console.log("Hello "+fname);
+const teamNames = [];
+teamNames.push("Joshua")
+console.log("Hello ");
