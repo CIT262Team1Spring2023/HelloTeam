@@ -5,8 +5,7 @@ teamNames.push("Austin");
 teamNames.push("JJ");
 
 function helloTeam(teamNames){
-    for (i in teamNames){
-        console.log("Hello "+teamNames[i]);
-    };
+        console.log("Hello "+teamNames);
 };
-helloTeam(teamNames);
+
+teamNames.forEach(helloTeam);
